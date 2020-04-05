@@ -1,0 +1,25 @@
+﻿<form method="post" action="/home/addPeople" id="my-form" style="margin-top:60px">
+        <div class="col-md-6 col-md-offset-3 well">            
+                <div class="col-md-6">
+                    <button type="button" id="add-btn" class="btn btn-success">Add</button>
+                </div>
+                <div class="col-md-6">
+                    <button class="btn btn-primary">Submit People</button>
+                </div>
+                <span>Person</span>
+                <br />
+                <div class="col-md-6">
+                    <input type="text" name="ppl[0].FirstName" placeholder="FirstName" class="form-control" />
+                </div>
+                <div class="col-md-6">
+                    <input type="text" name="ppl[0].LastName" placeholder="LastName" class="form-control" />
+                </div>
+                <div class="col-md-6">
+                    <input type="text" name="ppl[0].Age" placeholder="Age" class="form-control" />
+                </div>            
+        </div>
+    </form>
+
+@section Scripts{    
+<script src="~/js/Addbtn.js"></script>">
+ }
